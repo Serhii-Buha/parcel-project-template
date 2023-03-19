@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/",
-    "postinstall": "npx browserslist@latest --update-db"
+    "postinstall": "npx browserslist@latest --update-db && npm install caniuse-lite"
   },
   "repository": {
     "type": "git",
